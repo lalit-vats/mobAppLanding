@@ -1,0 +1,811 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* 
+img {
+    width: 100%;
+} */
+
+.sideBar img {
+    width: 30px;
+    height: 30px;
+}
+
+.sideBar {
+    display: none;
+}
+
+.sideBar a {
+    position: absolute;
+    z-index: 999999999;
+    top: 15px;
+    right: 31px;
+}
+
+.pinkButton {
+    padding: 10px 25px;
+    background-image: linear-gradient(122deg, #e54595 0%, #fd378e 100%);
+    box-shadow: 0px 9px 32px 0px rgb(0 0 0 / 20%);
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.pinkButton:hover {
+    background-image: linear-gradient(122deg, #fd378e 0%, #e54595 100%);
+    box-shadow: 0px 9px 32px 0px rgb(0 0 0 / 30%);
+}
+
+.bottomSection {
+    position: absolute;
+    width: 100%;
+    top: 110%;
+}
+
+.clients,
+.discoverapp {
+    background-color: white !important;
+}
+
+.header {
+    color: white;
+    padding: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(135deg, rgb(74, 13, 143) 0%, rgb(250, 42, 143) 100%);
+    position: fixed;
+    width: 100%;
+    z-index: 999999;
+
+}
+
+.header h2 {
+    color: white !important;
+
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.menu button {
+    background-color: transparent;
+    padding: 10px 15px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+}
+
+.hero {
+    background: linear-gradient(135deg, rgb(74, 13, 143) 0%, rgb(250, 42, 143) 100%);
+    color: white;
+    text-align: center;
+    padding: 60px;
+    padding-top: 110px;
+}
+
+.hero h1 {
+    font-size: 60px;
+}
+
+.hero p {
+    font-size: 23px;
+    margin-top: 30px;
+}
+
+.clientlogo {
+    text-align: center;
+    padding: 30px 148px;
+}
+
+.clientlogo img {
+    width: 100%;
+}
+
+.highlights {
+    background-color: #faf6fb;
+}
+
+.highlights h1 {
+    text-align: center;
+    font-size: 15px;
+    padding: 20px 0;
+    color: #998a9b;
+}
+
+.highlights h2 {
+
+    text-align: center;
+    font-size: 30px;
+    color: #633991;
+    font-weight: 50px;
+}
+
+.featureCard {
+    background-color: white;
+    padding: 26px 30px;
+    border-radius: 7px;
+    box-shadow: 0px 5px 7px 0px rgb(0 0 0 / 4%);
+    position: relative;
+}
+
+
+.discoverAppMobile {
+    width: 100%;
+}
+
+.leftborder {
+    width: 5px;
+    background: linear-gradient(to bottom, #9477b4 0%, #fc73b4 100%);
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.fa-regular,
+.fa-solid {
+    display: flex !important;
+    background: linear-gradient(to bottom, #9477b4 0%, #fc73b4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 62px;
+    height: 56px;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-face-smile,
+.fa-hammer,
+.fa-house-lock {
+    font-size: 40px !important;
+}
+
+
+
+.cardcontainer {
+    padding: 40px 140px;
+}
+
+.card:hover {
+    /* transform: translateY(-3); */
+    box-shadow: 0px 5px 30px 0px rgb(0 0 0 / 8%);
+}
+
+.discoverapp {
+    position: relative;
+}
+
+.content {
+    margin-top: 80px;
+}
+
+.content h2 {
+    font-size: 45px;
+    font-weight: 300;
+    color: #633991;
+    letter-spacing: -1px;
+}
+
+.content p {
+    font-size: 16px;
+    color: #959094;
+}
+
+.phoneicon {
+    width: 71px;
+    height: 70px;
+    box-shadow: 0px 0px 43px 0px rgb(0 0 0 / 14%);
+    margin-bottom: 24px;
+}
+
+.tab-right h1 {
+    color: #633991;
+    font-weight: 700;
+}
+
+.tab-right h3 {
+    color: #e38cb7;
+    margin-bottom: 2rem;
+}
+
+.tab-right p {
+    color: #959094;
+    font-size: 16px;
+}
+
+.tab-container-rapper {
+    background-color: #faf6fb;
+    padding: 80px 40px;
+}
+
+/* .row {
+    padding: 0 12px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding: 48px;
+} */
+
+.container_tab {
+    max-width: 1110px !important;
+    margin: 0 auto;
+}
+
+
+
+.nav-tabs .nav-link.active {
+    font-size: 17px;
+    color: #633991 !important;
+    font-weight: 700;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    border-top-width: 3px !important;
+    border-color: #ce75b4 #faf6fb #FFF !important;
+}
+
+.nav-link {
+    color: #b5a4c8 !important;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.nav-tabs {
+    background-color: #f5eff7 !important;
+}
+
+.launchyourapp {
+    background-color: #ffffff;
+}
+
+.launchapp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.launchapp h1 {
+    color: #633991;
+    font-size: 45px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.launchapp p {
+    color: #959094;
+    font-weight: 600;
+}
+
+.launchapp .pinkButton {
+    margin: 10px 0;
+    width: 120px;
+}
+
+.launchApp img {
+    width: 350px;
+}
+
+.iconWrapper {
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: 0px 0px 43px 0px rgb(0 0 0 / 14%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    margin-top: 0;
+}
+
+.fa-droplet {
+    width: 14px !important;
+    height: 16px !important;
+}
+
+.customePadding {
+    padding: 0 85px;
+}
+
+.features {
+    background-color: #FAF6FB;
+    padding: 50px 0;
+}
+
+.featureleft {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+}
+
+.serialNumbers {
+    background-color: white;
+    color: #fa2a8f;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25px;
+    box-shadow: 0px 9px 32px 0px rgb(0 0 0 / 7%);
+
+
+}
+
+.featureWrapper {
+    margin-bottom: 35px;
+    border-bottom: 1px solid #f8e3f0;
+    position: relative;
+
+}
+
+.featureright {
+    padding-left: 130px;
+}
+
+.featureright p {
+    margin-bottom: 35px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #959094;
+
+}
+
+.serialNumbers p {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0 !important;
+}
+
+.serialNumbers:hover {
+    background-color: rgb(250, 42, 143);
+    color: white !important;
+
+}
+
+.featureright h3 {
+    color: #633991;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.features img {
+    max-width: 350px;
+}
+
+.testimonials {
+    padding: 80px;
+}
+
+.testimonialCard img {
+    border-radius: 50%;
+}
+
+.testimonialContainer {
+    text-align: center;
+}
+
+.testimonialContainer p {
+    color: #998a9b;
+}
+
+.testimonialContainer h1 {
+    color: #633991;
+    font-size: 33px;
+    font-weight: 900;
+}
+
+.testimonialCard P {
+    color: #7a767a;
+    padding: 0 260px;
+    font-size: 20px;
+}
+
+.testimonialCard h2 {
+    color: #633991;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.textprimery {
+    color: #e38cb7 !important;
+    font-size: 20px;
+}
+
+
+.testimonials :where(.carousel-control-prev, .carousel-control-next) {
+    top: 80px !important;
+    background-color: #9c9c9c !important;
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 50%;
+}
+
+.testimonialCard img {
+    margin-bottom: 46px;
+}
+
+.gallery .container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.gallery .container p {
+    font-size: 12.8px;
+    color: #998a9b;
+    font-weight: 600;
+}
+
+.gallery .container h2 {
+    color: #633991;
+    font-size: 33px;
+    font-weight: 800;
+}
+
+.faqHeading {
+    text-align: center;
+}
+
+.faqHeading small {
+    font-weight: 600;
+    color: #998a9b
+}
+
+.faqHeading h2 {
+    color: #633991;
+    font-size: 33px;
+    font-weight: 800;
+}
+
+.faqText h3 {
+    font-size: 25px;
+    color: #633991;
+    font-weight: 800;
+
+
+}
+
+.faqText p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #959094;
+}
+
+.downloadApplication {
+    background: linear-gradient(135deg, rgb(74, 13, 143) 0%, rgb(250, 42, 143) 100%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 0;
+}
+
+.iconBg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.iconBg img {
+    width: 50px;
+    height: 50px;
+}
+
+.socialButton {
+    display: flex;
+    align-items: center;
+}
+
+.socialButton a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 14px 34px;
+    border-radius: 5px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.socialButton a p {
+    margin: 0 !important;
+}
+
+.socialButton a img {
+    margin-right: 10px;
+
+}
+
+.downloadApplication :where(h1, p) {
+    color: white;
+}
+
+.footer {
+    background-color: #f2f2f2;
+}
+
+.footer a {
+    color: #ce75b4;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 800;
+
+}
+
+.footer a:hover {
+    color: #ce75b4 !important;
+}
+
+
+.location {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+
+}
+
+
+
+
+.support {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+
+}
+
+.telephone {
+    display: flex;
+    align-items: baseline;
+
+}
+
+.footer .container {
+    /* display: flex;
+    align-items: center; */
+    padding: 0 20px;
+
+}
+
+.mediaIcon {
+    /* margin-left: 230px; */
+    display: flex;
+    justify-content: right;
+}
+
+.footwrapper :where(.fa-location-arrow, .fa-envelope, .fa-headphones-simple) {
+    width: 20px !important;
+}
+
+.location p {
+    font-weight: 800;
+    color: #959094;
+}
+
+.socialIcon :where(.fa-facebook-f, .fa-twitter, .fa-instagram) {
+    color: #ce75b4;
+}
+
+.socialIconWrapper {
+    display: flex;
+    gap: 15px;
+}
+
+.socialIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.subFooter {
+    background-color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.subFooter p {
+    font-size: 12px;
+    font-weight: 800;
+    color: #959094;
+}
+
+.footerItems a {
+    margin-right: 15px;
+}
+
+
+@media (max-width:576px) {
+    .clientlogo {
+        text-align: center;
+        padding: 25px 18px;
+    }
+
+    .featureCard {
+        display: flex;
+    }
+
+}
+
+
+@media (max-width: 720px) {
+    .menu {
+        display: none;
+    }
+
+    .sideBar {
+        display: initial;
+    }
+
+    .support {
+        display: flex;
+        justify-content: center;
+    }
+
+    .myicon {
+        height: 20px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width:778px) {
+    .contentCenter {
+        display: flex;
+        justify-content: center;
+    }
+
+    .doMoreCenter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #myTabContent {
+        padding-top: 40px;
+    }
+
+    .clientlogo {
+        text-align: center;
+        padding: 25px 60px;
+    }
+
+    .customePadding {
+        padding: 40px 10px;
+    }
+
+    .launchApp img {
+        width: 500px;
+    }
+
+    .hero h1 {
+        font-size: 46px;
+    }
+
+    .hero p {
+        font-size: 17px;
+
+    }
+
+    .discoverAppMobile {
+        display: none;
+    }
+
+    .content {
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0 !important;
+    }
+
+    .testimonialCard p {
+        padding: 20px;
+    }
+
+    .location {
+        display: flex;
+        align-items: end;
+        justify-content: center;
+    }
+
+
+    .mediaIcon {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .launchapp {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* .featureWrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } */
+
+    .featureleft {
+        position: initial;
+        display: flex;
+        justify-content: center;
+    }
+
+    .serialNumbers {
+        width: 80px;
+        height: 80px;
+    }
+
+    .featureright {
+        padding-left: 0 !important;
+        text-align: center;
+    }
+
+    .testimonials {
+        padding: 50px 30px;
+    }
+    .faq{
+        text-align: center;
+        padding: 0 40px;
+        padding-bottom: 40px;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .cardcontainer .featureCard {
+        margin-bottom: 18px;
+    }
+
+    .header {
+        justify-content: space-between;
+    }
+
+    .content {
+        margin-top: 50px;
+    }
+
+    .launchApp img {
+        width: 250px;
+    }
+
+}
+
+@media (max-width:1300px) {
+    .cardcontainer {
+        padding: 40px 20px;
+    }
+}
