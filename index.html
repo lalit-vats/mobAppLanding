@@ -18,6 +18,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 
@@ -58,12 +61,15 @@
     <!--Hero section-->
     <div class="hero">
         <div>
-            <h1>Mobile App Landing Page Template</h1>
-            <p>The one and only solution for any kind of mobila app landing needs. Just <br>change the screenshots and
-                texts and you are good to go.
-
-            </p>
-            <img src="./assets/images/iphonex.png" alt="phone" class="img-fluid">
+            <div data-aos="fade-down"  data-aos-duration="500" data-aos-easing="linear">
+                <h1>Mobile App Landing Page Template</h1>
+                <p>The one and only solution for any kind of mobila app landing needs. Just <br>change the screenshots
+                    and
+                    texts and you are good to go.
+                </p>
+            </div>
+            <img data-aos="fade-up"  data-aos-duration="1200" src="./assets/images/iphonex.png" alt="phone"
+                class="img-fluid">
         </div>
     </div>
 
@@ -79,7 +85,7 @@
                 <div class="cardcontainer">
                     <div class="row gx-3">
                         <div class="col-lg-4 col-sm-12">
-                            <div class="featureCard">
+                            <div class="featureCard" data-aos="fade-right"  data-aos-duration="1500">
                                 <div class="leftborder"></div>
                                 <div class="row">
                                     <div class="col-md-2 d-flex justify-content-center ">
@@ -96,7 +102,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4 col-sm-12">
-                            <div class="featureCard">
+                            <div class="featureCard" data-aos="zoom-in"  data-aos-duration="1500">
                                 <div class="leftborder"></div>
                                 <div class="row">
                                     <div class="col-md-2 d-flex justify-content-center">
@@ -113,7 +119,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4 col-sm-12">
-                            <div class="featureCard">
+                            <div class="featureCard" data-aos="fade-left"  data-aos-duration="1500">
                                 <div class="leftborder"></div>
                                 <div class="row">
                                     <div class="col-md-2 d-flex justify-content-center">
@@ -139,16 +145,16 @@
 
         <!--discopver our app-->
         <div class="discoverapp row">
-            <div class="col-md-6 discoverAppMobile">
+            <div class="col-md-6 discoverAppMobile" data-aos="fade-right" data-aos-duration="1500">
                 <img class="discoverAppMobile" src="./assets/images/perspective.png" alt="prespective phone"
                     class="img-fluid">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6" data-aos="fade-left"  data-aos-duration="1500">
                 <div class="content">
                     <div class="phoneicon">
                         <img src="./assets/images/phone icon.svg" alt="phone" width="71px" height="70px">
                     </div>
-                    <h2>Discover our App</h2>
+                    <h2 class="animate__animated animate__bounce">Discover our App</h2>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati vel <br>exercitationem
                         eveniet
                         vero
@@ -318,10 +324,10 @@
         <div class="launchApp">
             <div class="container">
                 <div class="row customePadding">
-                    <div class="col-xxl-6 contentCenter">
+                    <div class="col-xxl-6 contentCenter" data-aos="fade-right" data-aos-duration="1000">
                         <img src="assets/images/dualphone.png" alt="dual phone">
                     </div>
-                    <div class="col-xxl-6 ">
+                    <div class="col-xxl-6 " data-aos="fade-left" data-aos-duration="1000">
                         <div class="launchapp ">
                             <div class="iconWrapper">
                                 <i class="fa-solid fa-droplet"></i>
@@ -343,7 +349,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 d-flex flex-column justify-content-center">
-                        <div class="featureWrapper">
+                        <div class="featureWrapper"  data-aos="fade-right" data-aos-duration="1500" >
                             <div class="featureleft">
                                 <div class="serialNumbers">
                                     <p>1</p>
@@ -356,7 +362,7 @@
                                     pretium obcaecati vel exercitationem</p>
                             </div>
                         </div>
-                        <div class="featureWrapper">
+                        <div class="featureWrapper" data-aos="fade-right" data-aos-duration="2500">
                             <div class="featureleft">
                                 <div class="serialNumbers">
                                     <p>2</p>
@@ -369,7 +375,7 @@
                                     pretium obcaecati vel exercitationem</p>
                             </div>
                         </div>
-                        <div class="featureWrapper">
+                        <div class="featureWrapper" data-aos="fade-right" data-aos-duration="3000">
                             <div class="featureleft">
                                 <div class="serialNumbers">
                                     <p>3</p>
@@ -384,7 +390,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 contentCenter">
+                    <div class="col-md-4 contentCenter"  data-aos="fade-left" data-aos-duration="1500">
                         <img src="assets/images/iphonex (1).png" alt="iphonex" class="img-fluid">
                     </div>
                 </div>
@@ -460,13 +466,13 @@
         <div>
             <!--FAQ-->
             <div class="container">
-                <div class="faq">
+                <div class="faq pb-5">
                     <div class="faqHeading">
                         <Small>FAQ</Small>
                         <h2>Frequently Asked Questions</h2>
                     </div>
                     <div class="row g-5">
-                        <div class="col-md-6">
+                        <div class="col-md-6"  data-aos="fade-right" data-aos-duration="1500" >
                             <div class="faqText">
                                 <h3>Can I try before I buy?</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu
@@ -474,7 +480,7 @@
                                     Vestibulum sit amet mattis ante.</p>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6"  data-aos="fade-left" data-aos-duration="1500" >
                             <div class="faqText">
                                 <h3>Can I change my plan later?</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu
@@ -482,7 +488,7 @@
                                     Vestibulum sit amet mattis ante.</p>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6"  data-aos="fade-right" data-aos-duration="1500" >
                             <div class="faqText">
                                 <h3>What payment methods do you accept?</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu
@@ -490,7 +496,7 @@
                                     Vestibulum sit amet mattis ante.</p>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6" data-aos="fade-left" data-aos-duration="1500">
                             <div class="faqText">
                                 <h3>Do you have a contract?</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu
@@ -579,5 +585,9 @@
     </div>
 
 </body>
+
+<script>
+    AOS.init();
+</script>
 
 </html>

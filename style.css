@@ -69,7 +69,10 @@ img {
     position: fixed;
     width: 100%;
     z-index: 999999;
+}
 
+.header .nav-link{
+    color: white !important;
 }
 
 .header h2 {
@@ -473,6 +476,7 @@ img {
     color: #633991;
     font-size: 33px;
     font-weight: 800;
+    margin-bottom: 50px;
 }
 
 .faqText h3 {
